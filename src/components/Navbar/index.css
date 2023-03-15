@@ -1,0 +1,67 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+  padding: 0;
+}
+.nav-container {
+  background-color: #dcdcdc;
+  width: 100%;
+  display: flex;
+  /* max-width: 1110px; */
+  /* margin: auto; */
+}
+.Light-bg {
+  /* color: #fff; */
+  background-color: #333;
+}
+.Dark-bg {
+  /* color: #000; */
+  background-color: #dcdcdc;
+}
+.Light-bg-link {
+  color: #fff;
+}
+.Dark-bg-link {
+  color: #000;
+}
+.nav-header {
+  display: flex;
+  width: 1110px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #dcdcdc; */
+  height: 10vh;
+  box-sizing: border-box;
+  /* box-shadow: 0px 0px 0px 1px #dcdcdc; */
+  margin: auto;
+  border: none;
+}
+.logo-img {
+  height: 48px;
+  width: 48px;
+}
+.theme-img {
+  height: 48px;
+  width: 48px;
+  margin-left: 50px;
+}
+.theme-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.Links-container {
+  display: flex;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+}
+li {
+  list-style-type: none;
+  /* color: #000; */
+  font-weight: 500;
+  font-family: 'Roboto';
+
+  /* text-decoration: none; */
+}

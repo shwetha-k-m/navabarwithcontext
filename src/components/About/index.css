@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+}
+.about-img {
+  height: 200px;
+  width: 200px;
+}
+.about-heading {
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+}
